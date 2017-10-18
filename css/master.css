@@ -1,0 +1,376 @@
+body
+	{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffcc99;
+	}
+
+#wrapper
+	{
+	width: 1020px;
+	margin: 0 auto 0 auto;
+	}
+
+.albumPanel
+	{
+	width: 990px;
+	background-color: #ffe5cc;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border: 1px solid #cc3300;
+	background-image: url("../images/album-panel-backdrop.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	}
+
+
+/* Generic Type Styling Starts Here */
+	h1, h2, h3, h4, h5
+		{
+		font-weight: 800;
+		}
+
+	h1
+		{
+		text-align: center;
+		font-size: 36px;
+		color: #652020;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		}
+
+	h2
+		{
+		font-size: 24px;
+		line-height: 24px;
+		color: #ae0001;
+		background-color: #eeba30;
+		padding-left: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		}
+
+	h3
+		{
+		font-size: 24px;
+		color: #652020;
+		margin-top: 10px;
+		margin-bottom: 1px;
+		padding-left: 0px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		}
+
+	h4
+		{
+		font-size: 14px;
+		line-height: 16px;
+		color: #ae0001;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		}
+
+	h5
+		{
+		font-size: 14px;
+		line-height: 18px;
+		color: #cc3300;
+		margin-top: 1px;
+		margin-bottom: 12px;
+		}
+
+	p
+		{
+		color: #202020;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: justify;
+		}
+
+	strong
+		{
+		font-weight: 800;
+		}
+
+	i
+		{
+		font-style: italic;
+		}
+
+	a
+		{
+		color: #652020;
+		text-decoration: none;
+		}
+
+	hr
+		{
+		width: 50%;
+		color: #ae0001;
+		height: 1px;
+		}
+/* Generic Type Styling Ends Here */
+
+
+/* Main Menu Navigation Styling Starts Here */
+	#navigation
+		{
+		width: 1020px;
+		height: 448px;
+		background-image: url("../images/masthead.jpg");
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: left top;
+		}
+
+	#navigation h1
+		{
+		padding-top: 180px;
+		padding-bottom: 0px;
+		}
+
+	#navigation h4
+		{
+		font-size: 14px;
+		line-height: 14px;
+		text-align: center;
+		}
+
+	#mainMenu
+		{
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 28px;
+		color: #652020;
+		text-decoration: none;
+		padding-left: 700px;
+		padding-right: 30px;
+		padding-top: 15px;
+		padding-bottom: 3px;
+		}
+/* Main Menu Navigation Styling Ends Here */
+
+
+/* Image Position Styling Starts Here */
+	.imageHolderFull
+		{
+		position: relative;
+		width: 1018px;
+		height: 500px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #cc3300;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 5px;
+		}
+
+	.imageHolderFull .caption
+		{
+		position: absolute;
+		font-size: 13px;
+		line-height: 8px;
+		width: 998px;
+		height: 25px;
+		bottom: 10px;
+		left: 10px;
+		color: #ffffff;
+		background: #652020;
+		text-align: center;
+		font-weight: normal;
+		opacity: 0.9;
+		}
+
+	.imageHolderHist, .imageHolderBio
+		{
+		position: relative;
+		clear: left;
+		float: left;
+		height: 300px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #cc3300;
+		margin-left: 0px;
+		margin-right: 15px;
+		margin-bottom: 5px;
+		}
+
+	.imageHolderHist
+		{
+		width: 600px;
+		margin-top: 5px;
+		}
+
+	.imageHolderBio
+		{
+		width: 300px;
+		margin-top: 0px;
+		}
+
+	.imageHolderHist .caption, .imageHolderBio .caption
+		{
+		position: absolute;
+		bottom: 10px;
+		left: 10px;
+		color: #ffffff;
+		background: #652020;
+		text-align: center;
+		font-weight: normal;
+		opacity: 0.9;
+		}
+
+	.imageHolderHist .caption
+		{
+		font-size: 13px;
+		line-height: 8px;
+		width: 580px;
+		height: 25px;
+		}
+
+	.imageHolderBio .caption
+		{
+		font-size: 15px;
+		line-height: 10px;
+		width: 280px;
+		height: 30px;
+		}
+
+	.imageLeft, .imageRight
+		{
+		border-style: solid;
+		border-width: 1px;
+		border-color: #cc3300;
+		margin-top: 0px;
+		margin-bottom: 5px;
+		vertical-align: top;
+		}
+
+	.imageLeft
+		{
+		clear: left;
+		float: left;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 15px;
+		}
+
+	.imageRight
+		{
+		clear: right;
+		float: right;
+		margin-left: 15px;
+		margin-top: 0px;
+		margin-right: 0px;
+		}
+
+	.imagefactLeft
+		{
+		clear: left;
+		float: left;
+		border-width: 0px;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 10px;
+		margin-bottom: 0px;
+		vertical-align: top;
+		}
+/* Image Position Styling Ends Here */
+
+
+/* Video Position Styling Starts Here */
+	iframe
+		{
+		border-style: solid;
+		border-width: 1px;
+		border-color: #cc3300;
+		margin-bottom: 15px;
+		}
+/* Video Position Styling Ends Here */
+
+
+/* Footer Styling Starts Here */
+	#siteFooter
+		{
+		text-align: center;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 21px;
+		color: #652020;
+		text-decoration: none;
+		width: 1020px;
+		height: 121px;
+		background-image: url("../images/footer.jpg");
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: left top;
+		}
+
+	.imageValidate
+		{
+		margin-left: 5px;
+		margin-top: 10px;
+		margin-right: 5px;
+		margin-bottom: 0px;
+		vertical-align: top;
+		}
+/* Footer Styling Ends Here */
+
+
+/* Album Tracklists Styling Starts Here */
+	.tracklist
+		{
+		text-align: center;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 14px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		}
+
+	table
+		{ 
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+	table td
+		{
+		width: 162px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 2px;
+		padding-right: 2px;
+		}
+
+	.tracklist th
+		{
+		font-weight: 700;
+		font-size: 14px;
+		color: #cc3300;
+		border-bottom: 1px solid #cc3300;
+		border-top: 1px solid #cc3300;
+		padding: 5px;
+		}
+
+	.tracklist td i
+		{
+		font-size: 11px;
+		color: #cc3300;
+		}
+
+	.tracklist td
+		{
+		color: #652020;
+		border-bottom: 1px solid #f0af8e;
+		}
+
+	.tracklist .noBorder
+		{
+		border-bottom: hidden;
+		}
+/* Album Tracklists Styling Ends Here */
